@@ -1,0 +1,409 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "hello-world",
+        "directory": "C:\\Users\\16593\\hello-world",
+        "workspaceDir": "C:\\Users\\16593\\hello-world",
+        "sources": [
+            "C:\\Users\\16593\\hello-world\\src\\main\\scala",
+            "C:\\Users\\16593\\hello-world\\src\\main\\scala-2.13",
+            "C:\\Users\\16593\\hello-world\\src\\main\\scala-2",
+            "C:\\Users\\16593\\hello-world\\src\\main\\java",
+            "C:\\Users\\16593\\hello-world\\target\\scala-2.13\\src_managed\\main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\requests_2.13\\0.8.0\\requests_2.13-0.8.0.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.1.0\\ujson_2.13-3.1.0.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.9.1\\os-lib_2.13-0.9.1.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-render_2.13\\0.8.2\\plotly-render_2.13-0.8.2.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pathikrit\\better-files_2.13\\3.9.2\\better-files_2.13-3.9.2.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.0.0\\geny_2.13-1.0.0.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.1.0\\upickle-core_2.13-3.1.0.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-core_2.13\\0.8.2\\plotly-core_2.13-0.8.2.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar",
+            "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\bower\\plotly.js\\1.52.2\\plotly.js-1.52.2.jar"
+        ],
+        "out": "C:\\Users\\16593\\hello-world\\.bloop\\hello-world",
+        "classesDir": "C:\\Users\\16593\\hello-world\\.bloop\\hello-world\\scala-2.13\\classes",
+        "resources": [
+            "C:\\Users\\16593\\hello-world\\src\\main\\resources",
+            "C:\\Users\\16593\\hello-world\\target\\scala-2.13\\resource_managed\\main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-compiler\\2.13.12\\scala-compiler-2.13.12.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\io\\github\\java-diff-utils\\java-diff-utils\\4.12\\java-diff-utils-4.12.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\jline\\jline\\3.22.0\\jline-3.22.0.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\net\\java\\dev\\jna\\jna\\5.13.0\\jna-5.13.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": false,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": false,
+                "filterLibraryFromClasspath": false
+            },
+            "bridgeJars": [
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala2-sbt-bridge\\2.13.12\\scala2-sbt-bridge-2.13.12.jar"
+            ]
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                },
+                {
+                    "names": [
+                        "zio.test.sbt.ZTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "weaver.framework.CatsEffect"
+                    ]
+                },
+                {
+                    "names": [
+                        "hedgehog.sbt.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "C:\\Program Files\\Java\\jdk-21",
+                "options": [
+                    "-Duser.dir=C:\\Users\\16593\\hello-world"
+                ]
+            },
+            "mainClass": [
+                
+            ],
+            "runtimeConfig": {
+                "home": "C:\\Program Files\\Java\\jdk-21",
+                "options": [
+                    "-Duser.dir=C:\\Users\\16593\\hello-world"
+                ]
+            },
+            "classpath": [
+                "C:\\Users\\16593\\hello-world\\.bloop\\hello-world\\scala-2.13\\classes",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\requests_2.13\\0.8.0\\requests_2.13-0.8.0.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.1.0\\ujson_2.13-3.1.0.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.9.1\\os-lib_2.13-0.9.1.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-render_2.13\\0.8.2\\plotly-render_2.13-0.8.2.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pathikrit\\better-files_2.13\\3.9.2\\better-files_2.13-3.9.2.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.0.0\\geny_2.13-1.0.0.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.1.0\\upickle-core_2.13-3.1.0.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-core_2.13\\0.8.2\\plotly-core_2.13-0.8.2.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar",
+                "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\bower\\plotly.js\\1.52.2\\plotly.js-1.52.2.jar"
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-parser-combinators_2.13",
+                    "version": "2.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0.jar"
+                        },
+                        {
+                            "name": "scala-parser-combinators_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\modules\\scala-parser-combinators_2.13\\2.3.0\\scala-parser-combinators_2.13-2.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "requests_2.13",
+                    "version": "0.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "requests_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\requests_2.13\\0.8.0\\requests_2.13-0.8.0.jar"
+                        },
+                        {
+                            "name": "requests_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\requests_2.13\\0.8.0\\requests_2.13-0.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.13",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.1.0\\ujson_2.13-3.1.0.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\ujson_2.13\\3.1.0\\ujson_2.13-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "os-lib_2.13",
+                    "version": "0.9.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "os-lib_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.9.1\\os-lib_2.13-0.9.1.jar"
+                        },
+                        {
+                            "name": "os-lib_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\os-lib_2.13\\0.9.1\\os-lib_2.13-0.9.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.plotly-scala",
+                    "name": "plotly-render_2.13",
+                    "version": "0.8.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "plotly-render_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-render_2.13\\0.8.2\\plotly-render_2.13-0.8.2.jar"
+                        },
+                        {
+                            "name": "plotly-render_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-render_2.13\\0.8.2\\plotly-render_2.13-0.8.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.pathikrit",
+                    "name": "better-files_2.13",
+                    "version": "3.9.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "better-files_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pathikrit\\better-files_2.13\\3.9.2\\better-files_2.13-3.9.2.jar"
+                        },
+                        {
+                            "name": "better-files_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\github\\pathikrit\\better-files_2.13\\3.9.2\\better-files_2.13-3.9.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalafx",
+                    "name": "scalafx_2.13",
+                    "version": "16.0.0-R24",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafx_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24.jar"
+                        },
+                        {
+                            "name": "scalafx_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scalafx\\scalafx_2.13\\16.0.0-R24\\scalafx_2.13-16.0.0-R24-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.0.0\\geny_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\geny_2.13\\1.0.0\\geny_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "upickle-core_2.13",
+                    "version": "3.1.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "upickle-core_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.1.0\\upickle-core_2.13-3.1.0.jar"
+                        },
+                        {
+                            "name": "upickle-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\com\\lihaoyi\\upickle-core_2.13\\3.1.0\\upickle-core_2.13-3.1.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.plotly-scala",
+                    "name": "plotly-core_2.13",
+                    "version": "0.8.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "plotly-core_2.13",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-core_2.13\\0.8.2\\plotly-core_2.13-0.8.2.jar"
+                        },
+                        {
+                            "name": "plotly-core_2.13",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\plotly-scala\\plotly-core_2.13\\0.8.2\\plotly-core_2.13-0.8.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-reflect\\2.13.12\\scala-reflect-2.13.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.webjars.bower",
+                    "name": "plotly.js",
+                    "version": "1.52.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "plotly.js",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\bower\\plotly.js\\1.52.2\\plotly.js-1.52.2.jar"
+                        },
+                        {
+                            "name": "plotly.js",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\webjars\\bower\\plotly.js\\1.52.2\\plotly.js-1.52.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "C:\\Users\\16593\\AppData\\Local\\Coursier\\Cache\\v1\\https\\repo1.maven.org\\maven2\\org\\scala-lang\\scala-library\\2.13.12\\scala-library-2.13.12-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
