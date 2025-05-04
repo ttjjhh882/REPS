@@ -1,68 +1,63 @@
-# 可再生能源工厂系统 (REPS)
-基于Scala实现的可再生能源数据分析与监控系统，集成Fingrid开放API，支持风能/太阳能/水能发电数据的采集、分析与可视化。
+Renewable Energy Plant System (REPS)
+A Scala-based system for data analysis and monitoring of renewable energy, integrated with the Fingrid Open API. Supports data collection, analysis, and visualization for wind, solar, and hydro power generation.
 
-## 主要功能
+Core Modules
+Historical Data Analysis
 
-### 核心模块
-- **历史数据分析**
-  - 按时间范围查询发电数据
-  - 生成交互式HTML图表
-  - 统计指标计算（均值/中位数/众数等）
-  - CSV导出（支持按小时/日/周/月分组）
+Query generation data by time range
 
-- **实时监控**
-  - 设置发电量告警阈值
-  - 彩色终端告警提示
-  - 手动刷新最新数据
+Generate interactive HTML charts
 
-- **设备调控模拟**
-  - 选择能源设备类型
-  - 输入目标功率
-  - 操作进度动画演示
+Statistical metrics calculation (mean/median/mode, etc.)
 
-### 技术特性
-- 纯函数式编程实现
-- 尾递归优化控制流
-- 芬兰时区时间处理
-- ANSI彩色终端输出
-- 自动生成带时间戳的文件
+CSV export (supports grouping by hour/day/week/month)
 
-典型工作流示例
-历史数据分析
+Real-Time Monitoring
 
-选择能源类型 (1-3)
+Set generation threshold alerts
 
-输入时间范围 (格式: dd/MM/yyyy HH:mm)
+Color-coded terminal alert display
 
-选择生成图表/统计/导出
+Manual refresh of latest data
 
-实时监控
+Device Control Simulation
 
-设置告警阈值 (单位: MW)
+Select energy device type
 
-输入y刷新数据，n返回主菜单
+Input target power value
 
-设备调控
+Simulated operation animation display
 
-选择目标设备
+Implemented using pure functional programming
 
-输入功率数值
+Tail recursion optimized control flow
 
-查看模拟操作动画
+ANSI-colored terminal output
 
-文件生成规范
-图表文件: [能源类型]_[时间戳].html
+Auto-generates timestamped files
 
-示例: 风力发电_20240401_143045.html
+Example Workflow
+Historical Data Analysis
 
-数据文件: [能源类型]_[时间戳].csv
+Select energy type (1–3)
 
-示例: 太阳能发电_20240401_143102.csv
+Enter time range (format: dd/MM/yyyy HH:mm)
 
-libraryDependencies ++= Seq(
-  "com.lihaoyi" %% "requests" % "0.7.0",
-  "com.lihaoyi" %% "ujson" % "2.0.0",
-  "com.lihaoyi" %% "os-lib" % "0.8.1",
-  "org.plotly-scala" %% "plotly-render" % "0.8.2",
-  "com.github.pathikrit" %% "better-files" % "3.9.1"
-)
+Choose to generate chart/statistics/export
+
+Real-Time Monitoring
+
+Set alert threshold (unit: MW)
+
+Enter y to refresh data, n to return to main menu
+
+Device Control
+
+Select target device
+
+Enter power value
+
+View simulated operation animation
+
+Chart file: [EnergyType]_[Timestamp].html
+Data file: [EnergyType]_[Timestamp].csv
