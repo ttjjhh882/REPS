@@ -1,63 +1,44 @@
-Renewable Energy Plant System (REPS)
-A Scala-based system for data analysis and monitoring of renewable energy, integrated with the Fingrid Open API. Supports data collection, analysis, and visualization for wind, solar, and hydro power generation.
+# Renewable Energy Plant System (REPS)  
+A Scala-based renewable energy data analysis and monitoring system, integrated with Fingrid OpenAPI, supporting wind/solar/hydro power generation data collection, analysis, and visualization.  
 
-Core Modules
-Historical Data Analysis
+### Core Modules  
+- **Historical Data Analysis**  
+  - Query generation data by time range  
+  - Generate interactive HTML charts  
+  - Statistical metric calculations (mean/median/mode)  
+  - CSV export (supports hourly/daily/weekly/monthly grouping)  
 
-Query generation data by time range
+- **Real-time Monitoring**  
+  - Set generation alert thresholds  
+  - Colored terminal alerts  
+  - Manual refresh of latest data  
 
-Generate interactive HTML charts
+- **Equipment Control Simulation**  
+  - Select energy device type  
+  - Input target power  
+  - Animated operation progress demonstration  
 
-Statistical metrics calculation (mean/median/mode, etc.)
+### Features  
+- Functional programming implementation  
+- Tail recursion optimization for control flow  
+- ANSI-colored terminal output  
+- Automatic timestamped file generation  
 
-CSV export (supports grouping by hour/day/week/month)
+### Typical Workflow Examples  
+**Historical Data Analysis**  
+1. Select energy type (1-3)  
+2. Input time range (format: dd/MM/yyyy HH:mm)  
+3. Choose chart generation/stats/export  
 
-Real-Time Monitoring
+**Real-time Monitoring**  
+1. Set alert threshold (unit: MW)  
+2. Input `y` to refresh data, `n` to return to main menu  
 
-Set generation threshold alerts
+**Equipment Control**  
+1. Select target device  
+2. Input power value  
+3. View simulation animation  
 
-Color-coded terminal alert display
-
-Manual refresh of latest data
-
-Device Control Simulation
-
-Select energy device type
-
-Input target power value
-
-Simulated operation animation display
-
-Implemented using pure functional programming
-
-Tail recursion optimized control flow
-
-ANSI-colored terminal output
-
-Auto-generates timestamped files
-
-Example Workflow
-Historical Data Analysis
-
-Select energy type (1–3)
-
-Enter time range (format: dd/MM/yyyy HH:mm)
-
-Choose to generate chart/statistics/export
-
-Real-Time Monitoring
-
-Set alert threshold (unit: MW)
-
-Enter y to refresh data, n to return to main menu
-
-Device Control
-
-Select target device
-
-Enter power value
-
-View simulated operation animation
-
-Chart file: [EnergyType]_[Timestamp].html
-Data file: [EnergyType]_[Timestamp].csv
+### File Naming Convention  
+- Chart files: `[EnergyType]_[Timestamp].html`  
+- Data files: `[EnergyType]_[Timestamp].csv`  
