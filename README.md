@@ -1,68 +1,44 @@
-# 可再生能源工厂系统 (REPS)
-基于Scala实现的可再生能源数据分析与监控系统，集成Fingrid开放API，支持风能/太阳能/水能发电数据的采集、分析与可视化。
+# Renewable Energy Plant System (REPS)  
+A Scala-based renewable energy data analysis and monitoring system, integrated with Fingrid OpenAPI, supporting wind/solar/hydro power generation data collection, analysis, and visualization.  
 
-## 主要功能
+### Core Modules  
+- **Historical Data Analysis**  
+  - Query generation data by time range  
+  - Generate interactive HTML charts  
+  - Statistical metric calculations (mean/median/mode)  
+  - CSV export (supports hourly/daily/weekly/monthly grouping)  
 
-### 核心模块
-- **历史数据分析**
-  - 按时间范围查询发电数据
-  - 生成交互式HTML图表
-  - 统计指标计算（均值/中位数/众数等）
-  - CSV导出（支持按小时/日/周/月分组）
+- **Real-time Monitoring**  
+  - Set generation alert thresholds  
+  - Colored terminal alerts  
+  - Manual refresh of latest data  
 
-- **实时监控**
-  - 设置发电量告警阈值
-  - 彩色终端告警提示
-  - 手动刷新最新数据
+- **Equipment Control Simulation**  
+  - Select energy device type  
+  - Input target power  
+  - Animated operation progress demonstration  
 
-- **设备调控模拟**
-  - 选择能源设备类型
-  - 输入目标功率
-  - 操作进度动画演示
+### Features  
+- Functional programming implementation  
+- Tail recursion optimization for control flow  
+- ANSI-colored terminal output  
+- Automatic timestamped file generation  
 
-### 技术特性
-- 纯函数式编程实现
-- 尾递归优化控制流
-- 芬兰时区时间处理
-- ANSI彩色终端输出
-- 自动生成带时间戳的文件
+### Typical Workflow Examples  
+**Historical Data Analysis**  
+1. Select energy type (1-3)  
+2. Input time range (format: dd/MM/yyyy HH:mm)  
+3. Choose chart generation/stats/export  
 
-典型工作流示例
-历史数据分析
+**Real-time Monitoring**  
+1. Set alert threshold (unit: MW)  
+2. Input `y` to refresh data, `n` to return to main menu  
 
-选择能源类型 (1-3)
+**Equipment Control**  
+1. Select target device  
+2. Input power value  
+3. View simulation animation  
 
-输入时间范围 (格式: dd/MM/yyyy HH:mm)
-
-选择生成图表/统计/导出
-
-实时监控
-
-设置告警阈值 (单位: MW)
-
-输入y刷新数据，n返回主菜单
-
-设备调控
-
-选择目标设备
-
-输入功率数值
-
-查看模拟操作动画
-
-文件生成规范
-图表文件: [能源类型]_[时间戳].html
-
-示例: 风力发电_20240401_143045.html
-
-数据文件: [能源类型]_[时间戳].csv
-
-示例: 太阳能发电_20240401_143102.csv
-
-libraryDependencies ++= Seq(
-  "com.lihaoyi" %% "requests" % "0.7.0",
-  "com.lihaoyi" %% "ujson" % "2.0.0",
-  "com.lihaoyi" %% "os-lib" % "0.8.1",
-  "org.plotly-scala" %% "plotly-render" % "0.8.2",
-  "com.github.pathikrit" %% "better-files" % "3.9.1"
-)
+### File Naming Convention  
+- Chart files: `[EnergyType]_[Timestamp].html`  
+- Data files: `[EnergyType]_[Timestamp].csv`  
