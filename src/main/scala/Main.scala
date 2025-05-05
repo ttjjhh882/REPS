@@ -14,7 +14,9 @@ import scala.collection.mutable
 import scala.annotation.tailrec
 
 
-
+// Jiahang Tian
+// Zeyu Liu
+// Hongrui Zhang
 object RenewableEnergyAnalyzer {
   case class EnergyData(time: ZonedDateTime, value: Double)
   case class ApiError(message: String, details: Option[Value] = None)

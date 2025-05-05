@@ -52,3 +52,60 @@
 2025.05.04 12:46:14 INFO  time: indexed workspace in 3.64s
 5月 04, 2025 12:47:05 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 警告: Unmatched cancel notification for request id 1
+2025.05.04 12:49:24 INFO  no build target found for C:\Users\16593\Downloads\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.04 12:49:23 INFO  no build target found for C:\Users\16593\Downloads\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.04 12:49:23 INFO  no build target found for C:\Users\16593\Downloads\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.04 12:49:24 INFO  no build target found for C:\Users\16593\Downloads\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.04 12:49:26 INFO  no build target found for C:\Users\16593\Downloads\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.04 12:49:26 INFO  Running List(C:\Users\16593\AppData\Local\Coursier\data\bin\scala-cli.BAT, bsp, --workspace, C:\Users\16593\AppData\Local\Temp\metals-scala-cli15143089533492933198, --semantic-db-source-root, C:\Users\16593\Downloads, C:\Users\16593\Downloads\Main.scala)
+2025.05.04 12:49:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\16593\Downloads\.metals\bsp.trace.json or C:\Users\16593\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.04 12:49:27 INFO  Connected to Scala CLI server v1.7.0
+2025.05.04 12:49:27 INFO  compiling metals-scala-cli15143089533492933198_15a23006b2-2fa595c6ed (1 scala source)
+2025.05.04 12:49:28 INFO  time: code lens generation in 3.36s
+2025.05.04 12:49:28 INFO  Shut down connection with build server.
+2025.05.04 12:49:28 INFO  Scala CLI: May 04, 2025 12:49:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+5月 04, 2025 12:49:28 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 29
+2025.05.04 12:49:29 INFO  time: indexed workspace in 2.67s
+2025.05.04 12:49:29 INFO  Scala CLI started for C:\Users\16593\Downloads\Main.scala
+2025.05.04 12:50:30 INFO  Scala test classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.05.04 12:50:30 INFO  Scala main classes not supported by server
+java.util.concurrent.TimeoutException: Future timed out after [1 minute]
+	at scala.concurrent.impl.Promise$DefaultPromise.tryAwait0(Promise.scala:248)
+	at scala.concurrent.impl.Promise$DefaultPromise.result(Promise.scala:261)
+	at scala.concurrent.Await$.$anonfun$result$1(package.scala:201)
+	at scala.concurrent.BlockContext$DefaultBlockContext$.blockOn(BlockContext.scala:62)
+	at scala.concurrent.Await$.result(package.scala:124)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionScalaFuture.$anonfun$withTimeout$1(MetalsEnrichments.scala:288)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2025.05.04 13:05:08 INFO  Shutting down server
+2025.05.04 13:05:08 INFO  shutting down Metals
+2025.05.04 13:05:08 INFO  Shut down connection with build server.
+2025.05.04 13:05:08 INFO  Shut down connection with build server.
+2025.05.04 13:05:08 INFO  Exiting server
+2025.05.05 16:40:53 INFO  Started: Metals version 1.5.2 in folders 'C:\Users\16593\hello-world' for client Visual Studio Code 1.99.3.
+5月 05, 2025 4:40:54 下午 org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+警告: Unmatched cancel notification for request id 2
+2025.05.05 16:40:55 INFO  Attempting to connect to the build server...
+2025.05.05 16:40:55 INFO  Found a Bloop server running
+2025.05.05 16:40:55 INFO  no build target found for C:\Users\16593\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
+2025.05.05 16:40:55 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\16593\hello-world\.metals\bsp.trace.json or C:\Users\16593\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.05.05 16:40:55 INFO  no build target found for C:\Users\16593\hello-world\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.5
